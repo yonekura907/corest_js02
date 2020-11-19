@@ -1,0 +1,58 @@
+body {
+  /* background-color: #F8f8f8; */
+  background-color: #242424;
+}
+
+main {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+/* メインイメージ */
+.slide-show {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.slide-show li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 1.6s ease;
+}
+.slide-show img {
+  width: 100%;
+  height: 640px;
+  object-fit: cover;
+}
+.slide-show li.show {
+  opacity: 1;
+}
+
+/* ページング */
+.slide-nav {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.slide-nav li {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #333;
+  /*マウスカーソルを指のマークに*/
+  cursor: pointer;
+}
+.slide-nav li.selected {
+  background-color: #fff;
+}
