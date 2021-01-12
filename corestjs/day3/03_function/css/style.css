@@ -1,0 +1,39 @@
+.container {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  background-color: #ededed;
+  overflow: hidden;
+  background: url(../img/bg.png) center center no-repeat;
+}
+.zoogoo {
+  width: 190px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 400px;
+}
+.btn1,
+.btn2,
+.btn3 {
+  width: 200px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 12px;
+  line-height: 2.5;
+  cursor: pointer;
+}
+
+.btn-wrap {
+  width: 800px;
+  display: flex;
+}
+
+.numBoxLeft,
+.numBoxRight {
+  width: 200px;
+  height: 40px;
+  margin: 12px;
+}

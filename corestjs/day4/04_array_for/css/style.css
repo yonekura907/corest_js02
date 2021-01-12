@@ -1,0 +1,27 @@
+.container {
+  width: 1027px;
+  height: 568px;
+  background: url(../img/bg.png) center center no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.risu {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.btn1,
+.btn2,
+.btn3 {
+  width: 200px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  line-height: 2.5;
+  cursor: pointer;
+  float: left;
+}
